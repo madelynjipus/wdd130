@@ -46,8 +46,8 @@ h1 {
 
 div article img {
     position: relative;
-    bottom: 280px;
-    right: 20px;
+    width: 10px;
+    height: 10px;
     float: right;
 }
 
