@@ -1,22 +1,53 @@
 @import url('site-plan-rafting.css');
 
-main {
+html {
+    background-color: #000;
+  }
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 0 20px 20px 20px;
+  }
+
+h1 {
+    position:relative;
+    bottom: 140px;
+    left: 10px;
+    font-size: 35px;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 20px 0;
+    color: #a8d5e2;
+    text-shadow: 3px 3px 1px black;
+  }
+
+/* div article img {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    float: right;
+} */
+
+section {
+    display: block;
+    width: 400px;
+    height: auto;
+}
+
+/* header img {
+    position: relative;
+    left: 0;
+    width: auto;
+    height: auto;
+    margin-right: auto; */
+}
+
+/* main {
 	max-width: 800px;
 	margin: 2rem auto;
 	font-family: Roboto, Arial, sans-serif;
-}
-
-body {
-    font-size: 14px;
-    font-family: Manrope, Arial, sans-serif;
-}
-
-header img {
-    position: relative;
-    left: 350px;
-    width: auto;
-    height: auto;
-    margin-right: auto;
 }
 
 
@@ -34,23 +65,6 @@ nav a {
     text-decoration: none;
 }
 
-
-h1 {
-    position:relative;
-    bottom: 200px;
-    left: 10px;
-    font-size: 40px;
-    font-family: Roboto, Arial, sans-serif;
-    color: #a8d5e2;
-}
-
-div article img {
-    position: relative;
-    width: 10px;
-    height: 10px;
-    float: right;
-}
-
 div article p {
     position: relative;
     font-size: 20px;
@@ -60,9 +74,6 @@ div article p {
     left: 12px;
 }
 
-p {
-    margin: 2rem;
-}
 
 h2 {
     position: relative;
@@ -73,16 +84,18 @@ h2 {
     color: #023e8a;
 	text-shadow: 3px 3px 5px #0077b6;
     margin: 50px;
-}
+} */
 
-section p {
+/* section p {
     position: relative;
     bottom: 180px;
     left: 60px;
     font-size: 1rem;
     font-family: Manrope, Arial, sans-serif;
     color: #0077b6;
-}
+} */
+
+
 
 footer {
     margin-top: 15px;
@@ -98,10 +111,10 @@ footer {
 }
 
 .hero img {
+    position: relative;
     display: block;
-    font-size: 2rem;
-    background-color: aliceblue;
     width: 100%;
     height: auto;
+    background-color: #023e8a;
 }
 
