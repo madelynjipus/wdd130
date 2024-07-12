@@ -41,7 +41,7 @@ label, input, button, select, textarea {
 }
 
 label {
-    text-align: right;
+    text-align: left;
     padding-right: 1rem;
 }
 
@@ -49,12 +49,6 @@ input, select, textarea {
     padding: 0.2rem;
     font-size: 1rem;
 }
-
-/* input {
-    width: 5px;
-    height: 10px;
-    vertical-align: bottom;
-} */
 
 button {
     margin: 1rem;
@@ -64,12 +58,12 @@ button {
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    align-content: center;
 }
 
 button:hover {
     background-color: darkgreen;
 }
-
 
 footer {
     margin: 1rem auto 0;
@@ -93,3 +87,4 @@ footer {
 .q2 {
     grid-template-columns: 1fr 2fr;
 }
+
