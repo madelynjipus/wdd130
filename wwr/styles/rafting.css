@@ -11,10 +11,11 @@ body {
     padding: 0 20px 20px 20px;
   }
 
+
 header {
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 120px 1fr 2fr;
+    grid-template-rows: auto 1fr auto;
     align-items: center;
     border-bottom: 1px solid #023e8a;
     max-width: 1000px;
@@ -42,11 +43,9 @@ h1 {
 
 nav {
     position: relative;
-    background-color: #ffffff;
     margin-right: auto;
-    left: 10px;
-    text-align: right;
-    justify-content: space-evenly;
+    justify-content: right;
+    text-decoration: none;
 }
 
 .navigation {
@@ -56,13 +55,6 @@ nav {
 
 .navigation li {
     flex: 1 1 100%;
-}
-
-.navigation a {
-	display: block;
-	color: navy;
-	padding: 20px;
-	text-decoration: none;
 }
 
 .navigation a:hover {
@@ -93,72 +85,11 @@ figcaption {
     text-align: center;
 }
 
-/* div article img {
-    position: relative;
-    width: 10px;
-    height: 10px;
-    float: right;
-} */
-
 section {
     display: block;
     width: 400px;
     height: auto;
 }
-
-/* header img {
-    position: relative;
-    left: 0;
-    width: auto;
-    height: auto;
-    margin-right: auto;
-} */
-
-/* main {
-	max-width: 800px;
-	margin: 2rem auto;
-	font-family: Roboto, Arial, sans-serif;
-}
-
-
-nav a {
-    position: relative;
-    color: #023e8a;
-    display: inline;
-    text-decoration: none;
-}
-
-div article p {
-    position: relative;
-    font-size: 20px;
-    font-family: Manrope, Arial, sans-serif;
-    color: #ffffff;
-    bottom: 220px;
-    left: 12px;
-}
-
-
-h2 {
-    position: relative;
-    bottom: 150px;
-	left: 5px;
-	font-size: 1.2rem;
-    font-family: Manrope, Arial, sans-serif;
-    color: #023e8a;
-	text-shadow: 3px 3px 5px #0077b6;
-    margin: 50px;
-} */
-
-/* section p {
-    position: relative;
-    bottom: 180px;
-    left: 60px;
-    font-size: 1rem;
-    font-family: Manrope, Arial, sans-serif;
-    color: #0077b6;
-} */
-
-
 
 footer {
     margin-top: 15px;
@@ -166,11 +97,11 @@ footer {
     text-align: center;
 }
 
-.sociallinks a {
-    text-decoration: none;
+.sociallinks {
     border-bottom: #023e8a;
-    display: inline;
-    
+	display: flex;
+	color: navy;
+	padding: 20px;
 }
 
 .hero img {
