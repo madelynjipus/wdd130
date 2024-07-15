@@ -34,10 +34,10 @@
     <p>Phone: 111-111-1111</p>
     <p>Email: <a href="mailto:madelyn.jipus@gmail.com">Ms. Madelyn Jipus</a></p>
     <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d9414.990258496558!2d125.33976397124471!3d7.181831644373278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sriver%20rafting%20near%20Davao%2C%20Davao%20del%20Sur!5e0!3m2!1sen!2sph!4v1720933695555!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d9414.990258496558!2d125.33976397124471!3d7.181831644373278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sriver%20rafting%20near%20Davao%2C%20Davao%20del%20Sur!5e0!3m2!1sen!2sph!4v1720933695555!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <section>
-        <h3>Happy Staff to serve you.</h3>
+        <h2>Happy Staff to serve you.</h2>
         <figure>
             <img src="images/rsz_11employee-1.png" alt="staff-1" width="400" />
             <figcaption>Madelyn Jipus - Staff 1</figcaption>
@@ -50,29 +50,41 @@
 
         <figure>
             <img src="images/staff-3.png" alt="staff-3" width="400" />
-            <figcaption>Joana Jipus</figcaption>
+            <figcaption>Joana Jipus - Staff 3</figcaption>
         </figure>
     </section>
     <form>
         <fieldset>
         <div class="form-item">
-        <div class="form-item column2">
+        <div class="form-item column1">
             <legend>Form</legend>
             <label for="fullname">Full Name:</label>
             <input type="text" id="fullname" name="fullname">
         </div>
-        <div class="form-item column2">
+        <div class="form-item column1">
             <label for="useremail">Email:</label>
             <input type="email" id="useremail" name="useremail">
         </div>
         <div class="form-item column1">
-            <label for="purpose">Purpose</label>
-            <select id="purpose" name="purpose">
-                <option value="choose-one" selected disabled>Choose One ___</option>
-                <option value="general-inquiry">General Inquiry</option>
-                <option value="reservation-question">Reservation Question</option>
-                <option value="website-suggestion">Website Suggestion</option>
-            </select>
+            <label for="purpose">Purpose of the message.</label>
+            
+            <div class="radio-group">
+                <label>
+                    <input type="radio" value="purpose" name="purpose">
+                    General Inquiry
+                    <span></span>
+                </label>
+                <label>
+                    <input type="radio" value="purpose" name="purpose">
+                    Reservation Question
+                    <span></span>
+                </label>
+                <label>
+                    <input type="radio" value="purpose" name="purpose">
+                    Website Suggestion
+                    <span></span>
+                </label>
+            </div>
             <label for="message">Message</label>
             <textarea id="message" name="message" rows="4" placeholder="Write your message here."></textarea>
             <label for="subscribe">Please subscribe me to the monthly newsletter.</label>
@@ -80,6 +92,7 @@
         </div>
         </div>
         </fieldset>
+        <label for="submit">Submit</label>
         <button type="submit"><Source></Source>Submit</button>
     </form>
     </main>
