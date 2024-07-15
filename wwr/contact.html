@@ -64,33 +64,35 @@
             <input type="email" id="useremail" name="useremail">
         </div>
         <div class="form-item column1">
-            <label for="purpose">Purpose of the message.</label>
-            
+            <label for="purpose">Purpose of the message:</label>
             <div class="radio-group">
-                <label>
+                <label for="general-inquiry">
                     <input type="radio" id="general-inquiry" name="purpose">
                     General Inquiry
                     <span></span>
                 </label>
-                <label>
+                <label for="reservation-question">
                     <input type="radio" id="reservation-question" name="purpose">
                     Reservation Question
                     <span></span>
                 </label>
-                <label>
+                <label for="website-suggestion">
                     <input type="radio" id="website-suggestion" name="purpose">
                     Website Suggestion
                     <span></span>
                 </label>
             </div>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" placeholder="Write your message here."></textarea>
-            <label for="subscribe">Please subscribe me to the monthly newsletter.</label>
-            <input type="checkbox" id="subscribe" name="subscribe">
-        </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message here."></textarea>
+            </div>
+            <div>
+                <label for="subscribe">Please subscribe me to the monthly newsletter.</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+            </div>
         </div>
         </fieldset>
-        <label for="submit">Submit</label>
+        <label for="submit"></label>
         <button type="submit"><Source></Source>Submit</button>
     </form>
     </main>
