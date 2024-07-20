@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 :root {
@@ -20,10 +21,10 @@
     --nav-hover-link-color: rgb(3, 4, 94, .8);
     --nav-hover-background-color: rgb(255, 183, 3, .5);
 }
-
+/* 
 header {
     display: grid;
-}
+} */
 
 body {
     font-family: var(--paragraph-font);
@@ -32,6 +33,7 @@ body {
 }
 
 nav {
+    display: flex;
     background-color: rgb(70, 130, 180);
     padding: 1rem;
     display: flex;
@@ -39,6 +41,17 @@ nav {
     align-items: center;
 }
 
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
 h1 {
     font-weight: 500;
 }
