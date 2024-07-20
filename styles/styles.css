@@ -22,8 +22,6 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
-    width: 20em;
-    text-align: center;
 }
 
 aside img {
@@ -33,8 +31,8 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 400px;
-    left: 110px;
+    top: 380px;
+    left: 115px;
 }
 
 p {
@@ -58,6 +56,10 @@ footer {
     margin-top: 50px;
 }
 
+aside {
+    width: 20em;
+    text-align: center;
+}
 
 
 
