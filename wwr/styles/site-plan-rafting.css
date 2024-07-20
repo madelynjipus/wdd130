@@ -1,3 +1,60 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+:root {
+    --primary-color: #0077B6;
+    --secondary-color: #0096C7;
+    --accent1-color: rgba(228, 221, 221, 0.5);
+    --accent2-color: #FCBF49;
+
+    --heading-font: 'poppins', sans-serif;
+    --paragraph-font: 'poppins', sans-serif;
+
+    --nav-background-color: rgba(228, 221, 221, 0.8);
+    --nav-link-color: #0077B6;
+    --nav-hover-link-color: #03045E;
+    --nav-hover-background-color: #FFB703;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
 /* @import url('https://fonts:googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 body {
     font-family: var(--paragraph-font);
