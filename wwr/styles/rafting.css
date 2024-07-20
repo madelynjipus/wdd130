@@ -13,7 +13,6 @@ html {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
-    text-decoration: none;
 }
 
 body {
@@ -52,6 +51,7 @@ h1, h2 {
     height: auto;
     background-color: #023e8a;
 }
+
 
 p {
     margin-bottom: 1rem;
