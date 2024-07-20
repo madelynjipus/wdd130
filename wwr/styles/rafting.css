@@ -16,7 +16,7 @@ header {
 }
 
 nav {
-    background-color: steelblue;
+    background-color: rgb(70, 130, 180);
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
