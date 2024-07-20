@@ -11,7 +11,7 @@
     --primary-color: #0077B6;
     --secondary-color: #0096C7;
     --accent1-color: white;
-    --accent2-color: #FCBF49;
+    --accent2-color: rgb(252, 191, 73, .8);
 
     --heading-font: 'poppins', sans-serif;
     --paragraph-font: 'poppins', sans-serif;
@@ -21,15 +21,12 @@
     --nav-hover-link-color: rgb(3, 4, 94, .8);
     --nav-hover-background-color: rgb(255, 183, 3, .5);
 }
-/* 
-header {
-    display: grid;
-} */
 
 body {
     font-family: var(--paragraph-font);
     max-width: 840px;
     padding: 20px;
+    line-height: 1.55;
 }
 
 nav {
