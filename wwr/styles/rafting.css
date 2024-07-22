@@ -87,12 +87,10 @@ section {
     background-color: #023e8a;
 }
 
-figure {
+form {
     display: grid;
+    
 }
-
-/* figcaption {
-} */
 
 p {
     margin-bottom: 1rem;
