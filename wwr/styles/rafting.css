@@ -8,7 +8,7 @@
 :root {
     --primary-color: #0077B6;
     --secondary-color: #0096C7;
-    --accent1-color: rgba(228, 221, 221, 0.5);
+    --accent1-color: rgba(228, 221, 221, .2);
     --accent2-color: rgb(252, 191, 73, .2);
 
     --heading-font: 'Poppins', sans-serif;
@@ -73,8 +73,8 @@ main {
 }
 
 .hero {
-    background-color: var(--primary-color);
-    color: #fff;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
     text-align: center;
     padding: 80px 20px;
     margin-bottom: 30px;
@@ -90,6 +90,27 @@ main {
     margin-bottom: 30px;
 }
 
+.cta-button {
+    display: inline-block;
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--accent2-color);
+}
+
+.trip-info .cta-button {
+    display: block;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 .contact-box {
     background-color: var(--accent2-color);
