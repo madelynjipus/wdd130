@@ -16,8 +16,8 @@
 
     --nav-background-color: rgba(228, 221, 221, 0.8);
     --nav-link-color: #0077B6;
-    --nav-hover-link-color: rgb(3, 4, 94, .7);
-    --nav-hover-background-color: rgba(255, 183, 3, 0.5);
+    --nav-hover-link-color: rgb(129, 129, 248);
+    --nav-hover-background-color: rgba(255, 183, 3, 0.2);
 }
 
 body {
@@ -56,14 +56,16 @@ nav {
 }
 
 .navigation li a {
+    color: var(--primary-color);
     font-weight: 600;
 }
 
 nav a:hover {
-    color: var(--nav-hover-link-color);
+    color: var(--secondary-color);
     background-color: var(--nav-hover-background-color);
     border-radius: 4px;
     padding: 5px;
+    font-weight: 700;
 }
 
 main {
@@ -77,7 +79,7 @@ main {
     color: var(--primary-color);
     text-align: center;
     padding: 80px 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .hero h1 {
@@ -88,6 +90,12 @@ main {
 .hero p {
     font-size: 1.2em;
     margin-bottom: 30px;
+}
+
+.hero-content {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .cta-button {
@@ -103,6 +111,30 @@ main {
 
 .cta-button:hover {
     background-color: var(--accent2-color);
+}
+
+.newsletter {
+    background-color: var(--accent2-color);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.grid-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
 .trip-info .cta-button {
@@ -202,138 +234,3 @@ footer {
     background-color: #023e8a;
 }
 
-
-/*
-
-header {
-    padding: 20px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    max-width: 840px;
-    gap: 1rem;
-}
-
-li {
-    list-style: none;
-    display: inline-block;
-}
-
-li a {
-    color: var(--primary-color);
-    font-size: 18px;
-    font-weight: bold;
-    margin-right: 80px;
-    text-decoration: none;
-}
-
-h1, h2, h3 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
-p {
-    padding: 25px;
-    margin-bottom: 1rem;
-    color: var(--primary-color);
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-nav a {
-    color: var(--nav-link-color);
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
-
-.sociallinks {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-
-.contact-box {
-    display: flex;
-    gap: 3rem;
-}
-
-.contact-left {
-    flex-basis: 50%;
-    padding: 40px;
-    background-color: var(--accent1-color);
-    font-weight: 600;
-}
-
-.contact-right {
-    flex-basis: 50%;
-    padding: 10px;
-}
-
-.contact-container {
-    padding-top: 20px;
-}
-
-.map {
-    padding-top: 20px;
-}
-
-.staff-container {
-    display: flex;
-    gap: 2rem;
-    margin-top: 20px;
-}
-
-textarea {
-    padding: 10px;
-    box-sizing: border-box;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
-button {
-    background-color: var(--accent1-color);
-    width: 200px;
-    height: 50px;
-    border-radius: 30px;
-    font-size: 16px;
-    margin-top: 5px;
-}
-
-h1 {
-    position: relative;
-    font-weight: 500;
-}
-
-section {
-    display: flex;
-    margin-bottom: 3rem;
-}
-
-img {
-    max-width: 100%;
-}
-
-.hero img {
-    width: 100%;
-    height: auto;
-    background-color: #023e8a;
-}
-
-.caption {
-    display: flex;
-    gap: 1rem;
-} */
