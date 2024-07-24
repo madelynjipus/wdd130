@@ -39,10 +39,8 @@ header {
 }
 
 nav {
-    position: relative;
     display: flex;
     background-color: rgb(70, 130, 180);
-    padding: 1rem;
     justify-content: right;
     align-items: center;
 }
@@ -71,26 +69,21 @@ p {
     color: var(--primary-color);
 }
 
-footer {
-    display: flex;
-    background-color: rgb(70, 130, 180);
-    margin-top: 15px;
-    text-align: center;
-}
-
 footer p {
     color: white;
     font-weight: 100;
 }
 
 .sociallinks {
+    margin-top: 5px;
+    margin-bottom: 5px;
     position: relative;
     display: flex;
-	padding: 20px;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
 }
+
 
 /* contact */
 
