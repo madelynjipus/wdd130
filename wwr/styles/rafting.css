@@ -8,27 +8,87 @@
 }
 
 :root {
-    --primary-color: rgb(7, 42, 200, .8);
-    --secondary-color: #0077B6;
-    --accent1-color: #A2D6F9;
-    --accent2-color: rgb(255, 183, 3, .8);
+    --primary-color: #0077B6;
+    --secondary-color: #0096C7;
+    --accent1-color: rgba(228, 221, 221, 0.5);
+    --accent2-color: #FCBF49;
 
     --heading-font: 'poppins', sans-serif;
     --paragraph-font: 'poppins', sans-serif;
 
-    --nav-background-color: rgb(255, 198, 0, .5);
+    --nav-background-color: rgba(228, 221, 221, 0.8);
     --nav-link-color: #0077B6;
-    --nav-hover-link-color: rgb(255, 183, 3, .8);
-    --nav-hover-background-color: rgb(255, 183, 3, .3);
+    --nav-hover-link-color: #03045E;
+    --nav-hover-background-color: rgb(255, 183, 3, .5);
 }
 
 body {
     font-family: var(--paragraph-font);
     font-size: 16px;
     margin: 50px auto;
-    max-width: 840px;
+    padding: 20px;
+    max-width: 960px;
 }
 
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 80px;
+}
+
+h1, h2, h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+} 
+
+.sociallinks {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 1rem;
+
+
+/* 
 header {
     display: flex;
     position: relative;
@@ -82,12 +142,15 @@ footer p {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-}
+} */
+
+
+
 
 
 /* contact */
 
-.contact-box {
+/* .contact-box {
     display: flex;
     gap: 3rem;
 }
@@ -133,10 +196,16 @@ button {
     font-size: 16px;
     margin-top: 5px;
 
-}
+} */
+
+
+
+
+
+
 /* about */
 
-h1 {
+/* h1 {
     position:relative;
     font-weight: 500;
 }
@@ -167,4 +236,4 @@ img {
 .caption {
     display: flex;
     gap: 1rem;
-}
+} */
