@@ -8,15 +8,15 @@
 }
 
 :root {
-    --primary-color: rgb(3, 4, 94, .8);
-    --secondary-color: #BDE0FE;
-    --accent1-color: #FFC8DD;
-    --accent2-color: #CDB4DB;
+    --primary-color: rgb(7, 42, 200, .8);
+    --secondary-color: #0077B6;
+    --accent1-color: #A2D6F9;
+    --accent2-color: rgb(255, 183, 3, .8);
 
     --heading-font: 'poppins', sans-serif;
     --paragraph-font: 'poppins', sans-serif;
 
-    --nav-background-color: rgba(228, 221, 221, 0.8);
+    --nav-background-color: rgb(255, 198, 0, .5);
     --nav-link-color: #0077B6;
     --nav-hover-link-color: rgb(255, 183, 3, .8);
     --nav-hover-background-color: rgb(255, 183, 3, .3);
@@ -133,7 +133,7 @@ textarea {
 }
 
 button {
-    background-color: #FFC8DD;
+    background-color: var(--accent1-color);
     width: 200px;
     height: 50px;
     border-radius: 30px;
